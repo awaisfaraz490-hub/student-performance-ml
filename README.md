@@ -230,11 +230,9 @@ http://localhost:8501
 
 ## Screenshots
 
-> Add screenshots after running the app locally and place them in `assets/`.
-
 | Dashboard | EDA | Prediction |
-|---|---|---|
-| `assets/dashboard.png` | `assets/eda.png` | `assets/prediction.png` |
+
+
 
 ## Model Evaluation
 
