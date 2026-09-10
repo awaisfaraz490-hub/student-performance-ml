@@ -6,4 +6,4 @@ project `README.md` (for example: `assets/dashboard.png`,
 
 Add screenshots of your running app here after you run it locally, then
 update the image links in the root `README.md` Screenshots section.
-![alt text](<Screenshot 2026-09-10 152103.png>)
+![alt text](<Screenshot 2026-09-10 152008.png>)
