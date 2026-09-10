@@ -98,6 +98,16 @@ relationships). Regenerate it anytime with:
 
 ```bash
 python generate_dataset.py
+machine-learning
+python
+scikit-learn
+streamlit
+pandas
+data-science
+machine-learning-project
+student-performance
+data-analysis
+portfolio-project
 ```
 
 ## Project Architecture
