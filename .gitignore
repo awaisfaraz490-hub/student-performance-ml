@@ -1,0 +1,19 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+.ipynb_checkpoints/
+
+# OS / editor files
+.vscode/
+.idea/
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Trained model artifacts (regenerate with: python train_models.py)
+models/*.pkl
+!models/.gitkeep
