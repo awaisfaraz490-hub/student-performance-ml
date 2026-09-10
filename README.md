@@ -228,10 +228,20 @@ http://localhost:8501
    details and get a predicted score, risk status, and category.
 7. Use **Download Results** to export predictions for the entire dataset.
 
+
 ## Screenshots
 
-| Dashboard | EDA | Prediction |
+### Dashboard
+![Dashboard](assets/dashboard.png)
 
+### Exploratory Data Analysis
+![EDA](assets/eda.png)
+
+### Student Prediction
+![Prediction](assets/prediction.png)
+
+### Model Comparison
+![Model Comparison](assets/model-comparison.png)
 
 
 ## Model Evaluation
