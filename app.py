@@ -19,7 +19,6 @@ from sklearn.model_selection import train_test_split
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from src.auth import login_signup_gate, render_logout_sidebar
 from src.classification import (
     get_best_classification_model,
     train_and_evaluate_classifiers,
@@ -116,16 +115,6 @@ st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
 
 # --------------------------------------------------------------------------
-# Authentication gate — must pass before any other page renders
-# --------------------------------------------------------------------------
-if "authenticated" not in st.session_state:
-    st.session_state.authenticated = False
-
-if not login_signup_gate():
-    st.stop()
-
-
-# --------------------------------------------------------------------------
 # Session state initialization
 # --------------------------------------------------------------------------
 if "dataset" not in st.session_state:
@@ -164,7 +153,7 @@ def prepare_cleaned_dataset(df: pd.DataFrame) -> pd.DataFrame:
 # Sidebar navigation
 # --------------------------------------------------------------------------
 st.sidebar.markdown("### Student Performance Intelligence")
-render_logout_sidebar()
+st.sidebar.markdown("---")
 
 PAGES = [
     "Dashboard / Home",
@@ -839,3 +828,4 @@ psychological, or professional advice.
         '<div class="footer">Built with Python, Scikit-learn and Streamlit</div>',
         unsafe_allow_html=True,
     )
+
